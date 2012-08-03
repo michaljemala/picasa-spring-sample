@@ -1,3 +1,3 @@
 Picasa Web Albums Sample
 ========================
-A sample application demostrating Spring's OpenID and OAuth2 abstractions. Users sign in by using theirs existing Google Account. The access to the Picasa Web Albums by using its Google Data API needs to be allowed when prompted.
+A sample application demostrating Spring's <a href="http://static.springsource.org/spring-security/site/docs/3.1.x/reference/ns-config.html#ns-openid">OpenID</a> and <a href="https://github.com/SpringSource/spring-security-oauth/wiki/oauth2">OAuth2</a> abstractions. Users sign in by using theirs existing Google Account. The access to the Picasa Web Albums by using its <a href="https://developers.google.com/picasa-web/">Google Data API</a> needs to be allowed when prompted.
