@@ -24,7 +24,6 @@ public class CustomUserDetailsService implements UserDetailsService,
     public UserDetails loadUserByUsername(String id)
 	    throws UsernameNotFoundException {
 	UserDetails user = registeredUsers.get(id);
-
 	if (user == null) {
 	    throw new UsernameNotFoundException(id);
 	}
@@ -47,20 +46,16 @@ public class CustomUserDetailsService implements UserDetailsService,
 	String fullName = null;
 
 	List<OpenIDAttribute> attributes = token.getAttributes();
-
 	for (OpenIDAttribute attribute : attributes) {
 	    if (attribute.getName().equals("email")) {
 		email = attribute.getValues().get(0);
 	    }
-
 	    if (attribute.getName().equals("firstname")) {
 		firstName = attribute.getValues().get(0);
 	    }
-
 	    if (attribute.getName().equals("lastname")) {
 		lastName = attribute.getValues().get(0);
 	    }
-
 	    if (attribute.getName().equals("fullname")) {
 		fullName = attribute.getValues().get(0);
 	    }

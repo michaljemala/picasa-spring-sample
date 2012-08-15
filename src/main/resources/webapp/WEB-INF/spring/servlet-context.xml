@@ -11,6 +11,8 @@
 
 	<mvc:annotation-driven />
 	
+	<mvc:view-controller path="/" view-name="index"/>
+	
 	<mvc:resources location="/resources/" mapping="/resources/**"/>
 
 	<bean
