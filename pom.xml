@@ -16,7 +16,7 @@
 		<spring.security-version>3.1.2.RELEASE</spring.security-version>
 		<spring.security.oauth-version>1.0.0.RC2</spring.security.oauth-version>
 		<jackson-version>1.9.9</jackson-version>
-		<logback-version>1.0.0</logback-version>
+		<logback-version>1.2.0</logback-version>
 		<slf4j-version>1.6.4</slf4j-version>
 		<jetty-version>8.1.5.v20120716</jetty-version>
 		<ecj-version>3.7.2</ecj-version>
